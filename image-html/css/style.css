@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+/*  =========================This is header start*/
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #1D2120;
+    border-bottom: 4px solid #768044;
+}
+.lheader {
+    width: 25%;
+    float: left;
+}
+.lheader h1{
+    color: #E0E2E1;
+    margin-top: 20px;
+}
+.lheader p{
+    color: #767970;
+    margin-left: 10%;
+}
+
+.rheader {
+    width: 65%;
+    float: right;
+}
+.menu{
+    background-color: #202423;
+    height: 54px;
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 22px;
+    margin-left: 15%;
+    border: 2px solid #222625;
+}
+.rheader ul{
+    
+}
+.rheader ul li{
+    list-style: none;
+    float: left;
+    padding-left: 8%;
+    padding-top: 16px;
+}
+.rheader ul li a{
+    text-decoration: none;
+    color: #646869;
+}
+.rheader ul li a:hover{
+    color: #D9EA7A;
+}
+
+
+/*  =========================This is header end*/
+/*  ========================This is image start*/
+.image {
+    width: 100%;
+    background-color: #494949;
+    height: 375px;
+    border-bottom: 3px solid #2B2B2B;
+    border-top: 3px solid #ACB969;
+}
+.img {
+    float: left;
+    width: 40%;
+    margin-top: 32px;
+}
+.img img{
+    border: 10px solid #EBEBED;
+}
+
+.imgtext {
+    float: right;
+    width: 55%;
+}
+.imgtext h1{
+    color: #F9FDFF;
+font-size: 38px;
+margin-top: 38px;
+}
+.imgtext p{
+    color: #7E7F79;
+margin-top: 40px;
+font-size: 18px;
+}
+.imgtext button{
+    margin-top: 20px;
+height: 45px;
+width: 30%;
+font-size: 20px;
+background-color: #BFD447;
+cursor: pointer;
+border: 2px solid #BFD447;
+}
+
+
+/*  =========================This is image end*/
+/*  =========================This is text start*/
+.text{
+    width: 100%;
+    height: 600px;
+    border-top: 3px solid #F0F0F0;
+    border-bottom: 4px solid #282D19;
+}
+/*this is ltext*/
+.ltext{
+    float: left;
+    width: 60%;
+}
+.lefttitle{
+    margin-top: 43px;
+height: 50px;
+border-bottom: 2px solid #BAC869;
+}
+.ltext h2{
+    margin-top: 25px;
+font-size: 20px;
+}
+.ltext p{
+    margin-top: 25px;
+color: #A9A8A6;
+}
+.ltext ul{
+    margin-left: 6%;
+    margin-top: 16px;
+    color: #A9A8A6;
+}
+.ltext ul li{
+    
+}
+.btext{
+    height: 95px;
+border-left: 8px solid #BAD143;
+}
+.btext p{
+    margin-left: 5%;
+}
+
+/*this is rtext*/
+.rtext{
+    float: right;
+    width: 35%;
+}
+.rtext1{
+    width: 100%;
+    background-color: #404040;
+    
+    height: 50px;
+    color: white;
+    margin-top: 61px;
+}
+.rtext1 h1{
+    
+}
+/*this is rtext2*/
+.rtext2{
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 150px;
+}
+.rtext21{
+    width: 30%;
+    float: left;
+    margin-top: 25px;
+}
+.rtext22{
+    width: 65%;
+    float: right;
+}
+.rtext22 h4{
+    margin-top: 21px;
+color: #CFCFCF;
+font-size: 18px;
+}
+.rtext22 p{
+    font-size: 15px;
+margin-top: 7px;
+color: #9C9D9F;
+}
+.rtext22 h3{
+    font-size: 18px;
+    margin-top: 5px;
+}
+/*this is rtext3*/
+.rtext3{
+    width: 100%;
+    background-color: #DFDFDF;
+    height: 150px;
+    border-bottom: 2px solid #E9E9E9;
+}
+/*this is rtext3*/
+.rtext4{
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 150px;
+}
+
+/*  =========================This is text end*/
